@@ -1,0 +1,105 @@
+{
+    "ProtocolName":"ftp",
+    "InputSymbols":[
+        {
+            "cs": "USER1",
+            "instance": "USER ubuntu\r\n"
+        },
+        {
+            "cs": "PASS",
+            "instance": "PASS ubuntu\r\n"
+        },
+        {
+            "cs": "PWD",
+            "instance": "PWD\r\n"
+        },
+        {
+            "cs": "QUIT",
+            "instance": "QUIT\r\n"
+        },
+        {
+            "cs": "NOOP",
+            "instance": "NOOP\r\n"
+        },
+        {
+            "cs": "TYPE",
+            "instance": "TYPE\r\n"
+        },
+        {
+            "cs": "PORT",
+            "instance": "PORT 127,0,0,1,14,178\r\n"
+        },
+        {
+            "cs": "LIST",
+            "instance": "LIST\r\n"
+        },
+        {
+            "cs": "SYST",
+            "instance": "SYST\r\n"
+        },
+        {
+            "cs": "ACCT",
+            "instance": "ACCT\r\n"
+        },
+        {
+            "cs": "REIN",
+            "instance": "REIN\r\n"
+        },
+        {
+            "cs": "SMNT",
+            "instance": "SMNT\r\n"
+        },
+        {
+            "cs": "FEAT",
+            "instance": "FEAT\r\n"
+        },
+        {
+            "cs": "HELP",
+            "instance": "HELP\r\n"
+        },
+        {
+            "cs": "STRU",
+            "instance": "STRU\r\n"
+        },
+        {
+            "cs": "STRU",
+            "instance": "STRU\r\n"
+        },
+        {
+            "cs":"MKD",
+            "instance": "MKD test\r\n"
+        },
+        {
+            "cs":"XMKD",
+            "instance": "XMKD test2\r\n"   
+        },
+        {
+            "cs":"XCWD",
+            "instance": "XCWD test2\r\n"   
+        },
+        {
+            "cs":"XPWD",
+            "instance": "XPWD\r\n"   
+        },
+        {
+            "cs":"CDUP",
+            "instance": "CDUP\r\n"   
+        },
+        {
+            "cs":"XCUP",
+            "instance": "XCUP\r\n"   
+        },
+        {
+            "cs":"EPRT",
+            "instance": "EPRT ,2,0:0:0:0:0:0:0:0,1025,\r\n"   
+        }, 
+        {
+            "cs":"NLST",
+            "instance": "NLST \r\n"   
+        },
+        {
+            "cs":"MLSD",
+            "instance": "MLSD /\r\n"   
+        }
+    ]
+}

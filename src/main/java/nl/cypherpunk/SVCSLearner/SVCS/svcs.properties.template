@@ -1,0 +1,20 @@
+cmd = /home/ubuntu/BENCHMARK/bftpd/bftpd -D -c /home/ubuntu/BENCHMARK/bftpd/basic.conf
+input_dir = /home/ubuntu/NPAuto/SVCS-Learner/src/main/java/nl/cypherpunk/SVCSLearner/input_symbol.json
+output_dir = /home/ubuntu/output_server_bftp
+shmname = SVshm
+console_output = false
+
+
+host = localhost
+port = 2200
+timeout = 200
+receive_first = true
+restart = true
+debug_socket = false
+debug_process = false
+alphabet = USER1 PASS
+
+learning_algorithm = lstar
+
+eqtest = modifiedwmethod
+max_depth = 1
